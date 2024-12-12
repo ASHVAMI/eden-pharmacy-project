@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #00A0AA;
+  --secondary-color: #FF6B6B;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-primary);
+}
